@@ -1,0 +1,31 @@
+{
+    "name": "dot-region",
+    "version": "0.0.1",
+    "publisher": "emandeguzman",
+    "displayName": "Dot region",
+    "description": "Adds inconspicuous region makrker.",
+    "author": {
+        "name": "Eman de Guzman",
+        "email": "emandeguzman@gmail.com"
+    },
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Formatters"
+    ],
+    "keywords": [
+        "folding",
+        "region",
+        "dot region",
+        "region folding"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "*",
+            "aliases": ["", "*"],
+            "configuration": "./language-configuration.json"
+        }]
+    }
+}
